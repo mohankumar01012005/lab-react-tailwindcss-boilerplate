@@ -11,7 +11,7 @@ const Card = () => {
                 Kalvium Store
             </h4>
             <p className='text-base text-gray-600'>
-                You have a new course!
+                You have a brand new course!
             </p>
         </div>
     </div>
