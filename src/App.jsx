@@ -1,16 +1,22 @@
+import React from 'react'
 import './App.css'
 import Navbar from './components/Navbar'
-import Body from './components/Body'
+import Button from './components/Button'
+import Alert from './components/Alert'
+import Card from './components/Card'
 import Footer from './components/Footer'
-function App() {
 
-
+const App = () => {
   return (
-    <>
-      <Navbar/>
-      <Body/>
-      <Footer/>
-    </>
+    <div>
+      <Navbar />
+      <div className='m-16 p-16 pb-24'>
+      <Button />
+      <Alert />
+      <Card />
+      </div>
+      <Footer />
+    </div>
   )
 }
 

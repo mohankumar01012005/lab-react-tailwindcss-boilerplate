@@ -1,17 +1,10 @@
+
 import React from 'react'
-import "../App.css"
+
 const Footer = () => {
   return (
-    <div>
-        <div className="logoadd">
-           
-            <div>
-
-            <h1>Kalvium Store</h1>
-            <p>You have a new Course</p>
-            </div>
-        </div>
-            <div className='Footer'>© 2021 Copyright:Kalvium</div>
+    <div className='bg-gray-200 text-center py-4'>
+        <p> ©️ 2024 Copyright:Kalvium</p>
     </div>
   )
 }
